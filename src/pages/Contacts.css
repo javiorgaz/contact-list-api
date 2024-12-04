@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contact-image img {
+    width: 150px; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%; /* Para un estilo de avatar redondo */
+
+}
+
+.contact-card{
+    display: flex;
+    height: 150px;
+    margin:10px 0;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-body{
+    min-width: 200px;
+    max-width: 300px;
+    overflow: hidden;
+    padding-left: 40px;
+}
+
+
+.delete-edit-container{
+    margin-left: 670px;
+    font-size: 1.3em;
+}
+
+.delete-edit-container .fa-trash{
+    margin-left: 20px;
+}
+
+
+.contact-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-body h3 {
+    color: rgb(255, 127, 23);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.header .newContact{
+    font-size: 1.3em;
+    padding: 12px;
+    background-color: #33b249;
+    text-decoration: none;
+    border-radius: 10px;
+    color: antiquewhite;
+
+}
+
+.address, .email, .telephone {
+    display: flex;
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: rgb(113, 113, 113);
+}
+
+.fa-solid{
+    margin-right: 10px;
+    color: black;
+}
+
